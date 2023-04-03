@@ -80,16 +80,17 @@ footer {
   main {
     width: 100%;
     display: block;
-    padding-left: 10%;
   }
 
   .category {
     width: 90%;
     padding: 10px;
-    margin-right: 0;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
   }
 
+  .category:last-child {
+    margin-right: auto;
+  }
   .step {
     top: 0px;
     left: 0px;
@@ -102,4 +103,5 @@ footer {
   .text {
     margin: 0;
   }
+  
 }
